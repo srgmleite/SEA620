@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dimap_Document name="subset_0_of_ENMAP01-____L2A-DT0000074981_20240520T134757Z_009_V010402_20240602T200342Z_kmeans.dim">
+    <Metadata_Id>
+        <METADATA_FORMAT version="2.13.0">DIMAP</METADATA_FORMAT>
+        <METADATA_PROFILE>BEAM-DATAMODEL-V1</METADATA_PROFILE>
+    </Metadata_Id>
+    <Dataset_Id>
+        <DATASET_SERIES>BEAM-PRODUCT</DATASET_SERIES>
+        <DATASET_NAME>subset_0_of_ENMAP01-____L2A-DT0000074981_20240520T134757Z_009_V010402_20240602T200342Z_kmeans</DATASET_NAME>
+    </Dataset_Id>
+    <Production>
+        <DATASET_PRODUCER_NAME />
+        <PRODUCT_TYPE>ENMAP_L2A_CLUSTERS</PRODUCT_TYPE>
+        <PRODUCT_SCENE_RASTER_START_TIME>20-MAY-2024 13:47:57.556621</PRODUCT_SCENE_RASTER_START_TIME>
+        <PRODUCT_SCENE_RASTER_STOP_TIME>20-MAY-2024 13:47:59.155044</PRODUCT_SCENE_RASTER_STOP_TIME>
+    </Production>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 23S", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+               PARAMETER["central_meridian", -45.0], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 10000000.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32723"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,546225.0,7780125.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Index_Coding name="Cluster_classes">
+        <Index>
+            <INDEX_NAME>class_1</INDEX_NAME>
+            <INDEX_VALUE>0</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 1</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_2</INDEX_NAME>
+            <INDEX_VALUE>1</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 2</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_3</INDEX_NAME>
+            <INDEX_VALUE>2</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 3</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_4</INDEX_NAME>
+            <INDEX_VALUE>3</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 4</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_5</INDEX_NAME>
+            <INDEX_VALUE>4</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 5</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_6</INDEX_NAME>
+            <INDEX_VALUE>5</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 6</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_7</INDEX_NAME>
+            <INDEX_VALUE>6</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 7</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_8</INDEX_NAME>
+            <INDEX_VALUE>7</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 8</INDEX_DESCRIPTION>
+        </Index>
+    </Index_Coding>
+    <Raster_Dimensions>
+        <NCOLS>602</NCOLS>
+        <NROWS>412</NROWS>
+        <NBANDS>1</NBANDS>
+    </Raster_Dimensions>
+    <Data_Access>
+        <DATA_FILE_FORMAT>ENVI</DATA_FILE_FORMAT>
+        <DATA_FILE_FORMAT_DESC>ENVI File Format</DATA_FILE_FORMAT_DESC>
+        <DATA_FILE_ORGANISATION>BAND_SEPARATE</DATA_FILE_ORGANISATION>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_ENMAP01-____L2A-DT0000074981_20240520T134757Z_009_V010402_20240602T200342Z_kmeans.data/class_indices.hdr" />
+            <BAND_INDEX>0</BAND_INDEX>
+        </Data_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_ENMAP01-____L2A-DT0000074981_20240520T134757Z_009_V010402_20240602T200342Z_kmeans.data/tie_point_grids/scene_azimuth.hdr" />
+            <TIE_POINT_GRID_INDEX>0</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_ENMAP01-____L2A-DT0000074981_20240520T134757Z_009_V010402_20240602T200342Z_kmeans.data/tie_point_grids/sun_azimuth.hdr" />
+            <TIE_POINT_GRID_INDEX>1</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_ENMAP01-____L2A-DT0000074981_20240520T134757Z_009_V010402_20240602T200342Z_kmeans.data/tie_point_grids/sun_elevation.hdr" />
+            <TIE_POINT_GRID_INDEX>2</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_ENMAP01-____L2A-DT0000074981_20240520T134757Z_009_V010402_20240602T200342Z_kmeans.data/tie_point_grids/across_off_nadir.hdr" />
+            <TIE_POINT_GRID_INDEX>3</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_ENMAP01-____L2A-DT0000074981_20240520T134757Z_009_V010402_20240602T200342Z_kmeans.data/tie_point_grids/along_off_nadir.hdr" />
+            <TIE_POINT_GRID_INDEX>4</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+    </Data_Access>
+    <Tie_Point_Grids>
+        <NUM_TIE_POINT_GRIDS>5</NUM_TIE_POINT_GRIDS>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>0</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION />
+            <PHYSICAL_UNIT>DEG</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>scene_azimuth</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>2</NCOLS>
+            <NROWS>2</NROWS>
+            <OFFSET_X>-607.0</OFFSET_X>
+            <OFFSET_Y>0.0</OFFSET_Y>
+            <STEP_X>1209.0</STEP_X>
+            <STEP_Y>1167.0</STEP_Y>
+            <CYCLIC discontinuity="180">true</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,546225.0,7780125.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>1</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION />
+            <PHYSICAL_UNIT>DEG</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>sun_azimuth</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>2</NCOLS>
+            <NROWS>2</NROWS>
+            <OFFSET_X>-607.0</OFFSET_X>
+            <OFFSET_Y>0.0</OFFSET_Y>
+            <STEP_X>1209.0</STEP_X>
+            <STEP_Y>1167.0</STEP_Y>
+            <CYCLIC discontinuity="180">true</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,546225.0,7780125.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>2</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION />
+            <PHYSICAL_UNIT>DEG</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>sun_elevation</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>2</NCOLS>
+            <NROWS>2</NROWS>
+            <OFFSET_X>-607.0</OFFSET_X>
+            <OFFSET_Y>0.0</OFFSET_Y>
+            <STEP_X>1209.0</STEP_X>
+            <STEP_Y>1167.0</STEP_Y>
+            <CYCLIC discontinuity="180">true</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,546225.0,7780125.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>3</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION />
+            <PHYSICAL_UNIT>DEG</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>across_off_nadir</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>2</NCOLS>
+            <NROWS>2</NROWS>
+            <OFFSET_X>-607.0</OFFSET_X>
+            <OFFSET_Y>0.0</OFFSET_Y>
+            <STEP_X>1209.0</STEP_X>
+            <STEP_Y>1167.0</STEP_Y>
+            <CYCLIC discontinuity="180">true</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,546225.0,7780125.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>4</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION />
+            <PHYSICAL_UNIT>DEG</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>along_off_nadir</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>2</NCOLS>
+            <NROWS>2</NROWS>
+            <OFFSET_X>-607.0</OFFSET_X>
+            <OFFSET_Y>0.0</OFFSET_Y>
+            <STEP_X>1209.0</STEP_X>
+            <STEP_Y>1167.0</STEP_Y>
+            <CYCLIC discontinuity="180">true</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,546225.0,7780125.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+    </Tie_Point_Grids>
+    <Image_Display>
+        <Band_Statistics>
+            <BAND_INDEX>0</BAND_INDEX>
+            <NUM_COLORS>8</NUM_COLORS>
+            <Color_Palette_Point>
+                <SAMPLE>0.0</SAMPLE>
+                <LABEL>class_1</LABEL>
+                <COLOR red="232" green="237" blue="174" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>1.0</SAMPLE>
+                <LABEL>class_2</LABEL>
+                <COLOR red="98" green="46" blue="179" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>2.0</SAMPLE>
+                <LABEL>class_3</LABEL>
+                <COLOR red="186" green="166" blue="187" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>3.0</SAMPLE>
+                <LABEL>class_4</LABEL>
+                <COLOR red="8" green="56" blue="151" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>4.0</SAMPLE>
+                <LABEL>class_5</LABEL>
+                <COLOR red="10" green="235" blue="165" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>5.0</SAMPLE>
+                <LABEL>class_6</LABEL>
+                <COLOR red="42" green="147" blue="63" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>6.0</SAMPLE>
+                <LABEL>class_7</LABEL>
+                <COLOR red="124" green="7" blue="240" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>7.0</SAMPLE>
+                <LABEL>class_8</LABEL>
+                <COLOR red="108" green="26" blue="160" alpha="255" />
+            </Color_Palette_Point>
+            <NO_DATA_COLOR red="0" green="0" blue="0" alpha="0" />
+            <HISTOGRAM_MATCHING>None</HISTOGRAM_MATCHING>
+        </Band_Statistics>
+    </Image_Display>
+    <Image_Interpretation>
+        <Spectral_Band_Info>
+            <BAND_INDEX>0</BAND_INDEX>
+            <BAND_DESCRIPTION>Class_indices</BAND_DESCRIPTION>
+            <BAND_NAME>class_indices</BAND_NAME>
+            <BAND_RASTER_WIDTH>602</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>412</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint8</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <INDEX_CODING_NAME>Cluster_classes</INDEX_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>255.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>30.0,0.0,0.0,-30.0,546225.0,7780125.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+    </Image_Interpretation>
+    <Dataset_Sources>
+        <MDElem name="metadata">
+            <MDElem name="Cluster_Analysis" />
+            <MDElem name="Processing_Graph">
+                <MDElem name="node.0">
+                    <MDATTR name="id" type="ascii" mode="rw">KMeansClusterAnalysis$19253C26AC2</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">KMeansClusterAnalysis</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Cluster Analysis</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">10.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Performs a K-Means cluster analysis.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Ralf Quast, Marco Zuehlke</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2008 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-10-03T19:01:43.237Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="source" type="ascii" mode="rw">product:[3] subset_0_of_ENMAP01-____L2A-DT0000074981_20240520T134757Z_009_V010402_20240602T200342Z</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="randomSeed" type="ascii">31415</MDATTR>
+                        <MDATTR name="iterationCount" type="ascii">30</MDATTR>
+                        <MDATTR name="clusterCount" type="ascii">8</MDATTR>
+                        <MDATTR name="sourceBandNames" type="ascii" />
+                    </MDElem>
+                </MDElem>
+            </MDElem>
+        </MDElem>
+    </Dataset_Sources>
+</Dimap_Document>

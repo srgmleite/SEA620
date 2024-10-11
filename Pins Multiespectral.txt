@@ -1,0 +1,18 @@
+# SNAP pin export table
+#
+# Product:	subset_0_of_S2B_MSIL2A_20240520T_resampled_
+# Created on:	Thu Oct 03 14:23:34 BRT 2024
+
+Name	X	Y	Lon	Lat	Color	Label	Desc
+pin_1	231.5	350.5	-44.52108811632027	-20.132763203307835	java.awt.Color[r=0,g=0,b=255]	Água Limpa	
+pin_2	922.5	779.5	-44.45484277897156	-20.17133612350183	java.awt.Color[r=255,g=200,b=0]	Água de Rejeito	
+pin_3	647.5	424.5	-44.481265537991746	-20.13933732979603	java.awt.Color[r=255,g=102,b=255]	Solo Arenoso	
+pin_4	428.5	840.5	-44.50209987057144	-20.176988297457164	java.awt.Color[r=153,g=0,b=153]	Solo Ferroso	
+pin_6	248.5	695.5	-44.5193662702588	-20.163933725799385	java.awt.Color[r=204,g=0,b=0]	Solo Argiloso	
+pin_7	952.5	563.5	-44.45204000440653	-20.15180921279949	java.awt.Color[r=51,g=0,b=51]	Minério de Ferro	
+pin_8	1579.5	469.5	-44.39207861390965	-20.143118453495546	java.awt.Color[r=0,g=102,b=102]	Mata Consolidada	
+pin_9	549.5	872.5	-44.49051063040344	-20.179846710084192	java.awt.Color[r=0,g=51,b=0]	Mata de Galeria/Ciliar	
+pin_10	345.5	884.5	-44.5100306622992	-20.180986515240182	java.awt.Color[r=153,g=255,b=153]	Pastagem	
+pin_11	1352.5	871.5	-44.413662098159676	-20.179516976557128	java.awt.Color[r=0,g=255,b=51]	Agrossilvipastoril	
+pin_12	1011.5	420.5	-44.446440111913454	-20.13886991050132	java.awt.Color[r=0,g=255,b=204]	Campo Rupestre	
+pin_13	1575.5	299.5	-44.39252069742744	-20.127758506718106	java.awt.Color[r=255,g=0,b=0]	Solo Laterítico	

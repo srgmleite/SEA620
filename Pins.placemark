@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Placemarks>
+    <Placemark name="pin_1">
+        <LABEL>Água Limpa</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.132763203307835</LATITUDE>
+        <LONGITUDE>-44.52108811632027</LONGITUDE>
+        <PIXEL_X>231.5</PIXEL_X>
+        <PIXEL_Y>350.5</PIXEL_Y>
+        <STYLE_CSS>symbol:pin; fill:#0000ff; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_2">
+        <LABEL>Água de Rejeito</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.17133612350183</LATITUDE>
+        <LONGITUDE>-44.45484277897156</LONGITUDE>
+        <PIXEL_X>922.5</PIXEL_X>
+        <PIXEL_Y>779.5</PIXEL_Y>
+        <STYLE_CSS>fill:#ffc800; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_3">
+        <LABEL>Solo Arenoso</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.13933732979603</LATITUDE>
+        <LONGITUDE>-44.481265537991746</LONGITUDE>
+        <PIXEL_X>647.5</PIXEL_X>
+        <PIXEL_Y>424.5</PIXEL_Y>
+        <STYLE_CSS>fill:#ff66ff; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_4">
+        <LABEL>Solo Ferroso</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.176988297457164</LATITUDE>
+        <LONGITUDE>-44.50209987057144</LONGITUDE>
+        <PIXEL_X>428.5</PIXEL_X>
+        <PIXEL_Y>840.5</PIXEL_Y>
+        <STYLE_CSS>fill:#990099; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_5">
+        <LABEL>Solo Laterítico</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.126289868545594</LATITUDE>
+        <LONGITUDE>-44.38592514934528</LONGITUDE>
+        <PIXEL_X>1644.5</PIXEL_X>
+        <PIXEL_Y>283.5</PIXEL_Y>
+        <STYLE_CSS>fill:#ff0000; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_6">
+        <LABEL>Solo Argiloso</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.163933725799385</LATITUDE>
+        <LONGITUDE>-44.5193662702588</LONGITUDE>
+        <PIXEL_X>248.5</PIXEL_X>
+        <PIXEL_Y>695.5</PIXEL_Y>
+        <STYLE_CSS>fill:#cc0000; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_7">
+        <LABEL>Minério de Ferro</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.15180921279949</LATITUDE>
+        <LONGITUDE>-44.45204000440653</LONGITUDE>
+        <PIXEL_X>952.5</PIXEL_X>
+        <PIXEL_Y>563.5</PIXEL_Y>
+        <STYLE_CSS>fill:#330033; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_8">
+        <LABEL>Mata Consolidada</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.143118453495546</LATITUDE>
+        <LONGITUDE>-44.39207861390965</LONGITUDE>
+        <PIXEL_X>1579.5</PIXEL_X>
+        <PIXEL_Y>469.5</PIXEL_Y>
+        <STYLE_CSS>fill:#006666; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_9">
+        <LABEL>Mata de Galeria/Ciliar</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.179846710084192</LATITUDE>
+        <LONGITUDE>-44.49051063040344</LONGITUDE>
+        <PIXEL_X>549.5</PIXEL_X>
+        <PIXEL_Y>872.5</PIXEL_Y>
+        <STYLE_CSS>fill:#003300; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_10">
+        <LABEL>Pastagem</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.180986515240182</LATITUDE>
+        <LONGITUDE>-44.5100306622992</LONGITUDE>
+        <PIXEL_X>345.5</PIXEL_X>
+        <PIXEL_Y>884.5</PIXEL_Y>
+        <STYLE_CSS>fill:#99ff99; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_11">
+        <LABEL>Agrossilvipastoril</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.179516976557128</LATITUDE>
+        <LONGITUDE>-44.413662098159676</LONGITUDE>
+        <PIXEL_X>1352.5</PIXEL_X>
+        <PIXEL_Y>871.5</PIXEL_Y>
+        <STYLE_CSS>fill:#00ff33; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+    <Placemark name="pin_12">
+        <LABEL>Campo Rupestre</LABEL>
+        <DESCRIPTION />
+        <LATITUDE>-20.13886991050132</LATITUDE>
+        <LONGITUDE>-44.446440111913454</LONGITUDE>
+        <PIXEL_X>1011.5</PIXEL_X>
+        <PIXEL_Y>420.5</PIXEL_Y>
+        <STYLE_CSS>fill:#00ffcc; fill-opacity:0.7; stroke:#ffffff; stroke-opacity:1.0; stroke-width:0.5; symbol:pin</STYLE_CSS>
+    </Placemark>
+</Placemarks>

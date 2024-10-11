@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dimap_Document name="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.dim">
+    <Metadata_Id>
+        <METADATA_FORMAT version="2.13.0">DIMAP</METADATA_FORMAT>
+        <METADATA_PROFILE>BEAM-DATAMODEL-V1</METADATA_PROFILE>
+    </Metadata_Id>
+    <Dataset_Id>
+        <DATASET_SERIES>BEAM-PRODUCT</DATASET_SERIES>
+        <DATASET_NAME>subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans</DATASET_NAME>
+    </Dataset_Id>
+    <Production>
+        <DATASET_PRODUCER_NAME />
+        <PRODUCT_TYPE>S2_MSI_Level-2A_CLUSTERS</PRODUCT_TYPE>
+        <PRODUCT_SCENE_RASTER_START_TIME>20-MAY-2024 13:12:39.024000</PRODUCT_SCENE_RASTER_START_TIME>
+        <PRODUCT_SCENE_RASTER_STOP_TIME>20-MAY-2024 13:12:39.024000</PRODUCT_SCENE_RASTER_STOP_TIME>
+    </Production>
+    <Coordinate_Reference_System>
+        <WKT>
+             PROJCS["WGS 84 / UTM zone 23S", 
+               GEOGCS["WGS 84", 
+                 DATUM["World Geodetic System 1984", 
+                   SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                   AUTHORITY["EPSG","6326"]], 
+                 PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+                 UNIT["degree", 0.017453292519943295], 
+                 AXIS["Geodetic longitude", EAST], 
+                 AXIS["Geodetic latitude", NORTH], 
+                 AUTHORITY["EPSG","4326"]], 
+               PROJECTION["Transverse_Mercator"], 
+               PARAMETER["central_meridian", -45.0], 
+               PARAMETER["latitude_of_origin", 0.0], 
+               PARAMETER["scale_factor", 0.9996], 
+               PARAMETER["false_easting", 500000.0], 
+               PARAMETER["false_northing", 10000000.0], 
+               UNIT["m", 1.0], 
+               AXIS["Easting", EAST], 
+               AXIS["Northing", NORTH], 
+               AUTHORITY["EPSG","32723"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Index_Coding name="Cluster_classes">
+        <Index>
+            <INDEX_NAME>class_1</INDEX_NAME>
+            <INDEX_VALUE>0</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 0, Center(B2=0.018, B3=0.032, B4=0.023, B5=0.063, B6=0.179, B8=0.229, B9=0.246, B11=0.14, B12=0.066)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_2</INDEX_NAME>
+            <INDEX_VALUE>1</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 1, Center(B2=0.018, B3=0.031, B4=0.029, B5=0.063, B6=0.147, B8=0.174, B9=0.2, B11=0.137, B12=0.074)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_3</INDEX_NAME>
+            <INDEX_VALUE>2</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 2, Center(B2=0.037, B3=0.062, B4=0.071, B5=0.119, B6=0.2, B8=0.238, B9=0.256, B11=0.227, B12=0.138)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_4</INDEX_NAME>
+            <INDEX_VALUE>3</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 3, Center(B2=0.023, B3=0.045, B4=0.033, B5=0.084, B6=0.222, B8=0.288, B9=0.282, B11=0.167, B12=0.08)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_5</INDEX_NAME>
+            <INDEX_VALUE>4</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 4, Center(B2=0.038, B3=0.073, B4=0.062, B5=0.131, B6=0.271, B8=0.332, B9=0.325, B11=0.227, B12=0.12)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_6</INDEX_NAME>
+            <INDEX_VALUE>5</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 5, Center(B2=0.038, B3=0.057, B4=0.092, B5=0.114, B6=0.132, B8=0.123, B9=0.127, B11=0.201, B12=0.186)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_7</INDEX_NAME>
+            <INDEX_VALUE>6</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 6, Center(B2=0.066, B3=0.099, B4=0.143, B5=0.178, B6=0.221, B8=0.243, B9=0.244, B11=0.314, B12=0.24)</INDEX_DESCRIPTION>
+        </Index>
+        <Index>
+            <INDEX_NAME>class_8</INDEX_NAME>
+            <INDEX_VALUE>7</INDEX_VALUE>
+            <INDEX_DESCRIPTION>Cluster 7, Center(B2=0.019, B3=0.03, B4=0.023, B5=0.023, B6=0.015, B8=0.013, B9=0.037, B11=0.017, B12=0.012)</INDEX_DESCRIPTION>
+        </Index>
+    </Index_Coding>
+    <Raster_Dimensions>
+        <NCOLS>1734</NCOLS>
+        <NROWS>924</NROWS>
+        <NBANDS>1</NBANDS>
+    </Raster_Dimensions>
+    <Data_Access>
+        <DATA_FILE_FORMAT>ENVI</DATA_FILE_FORMAT>
+        <DATA_FILE_FORMAT_DESC>ENVI File Format</DATA_FILE_FORMAT_DESC>
+        <DATA_FILE_ORGANISATION>BAND_SEPARATE</DATA_FILE_ORGANISATION>
+        <Data_File>
+            <DATA_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/class_indices.hdr" />
+            <BAND_INDEX>0</BAND_INDEX>
+        </Data_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/tco3.hdr" />
+            <TIE_POINT_GRID_INDEX>0</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/tcwv.hdr" />
+            <TIE_POINT_GRID_INDEX>1</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/msl.hdr" />
+            <TIE_POINT_GRID_INDEX>2</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/r.hdr" />
+            <TIE_POINT_GRID_INDEX>3</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/10u.hdr" />
+            <TIE_POINT_GRID_INDEX>4</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/10v.hdr" />
+            <TIE_POINT_GRID_INDEX>5</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/aod550.hdr" />
+            <TIE_POINT_GRID_INDEX>6</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/z.hdr" />
+            <TIE_POINT_GRID_INDEX>7</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/bcaod550.hdr" />
+            <TIE_POINT_GRID_INDEX>8</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/omaod550.hdr" />
+            <TIE_POINT_GRID_INDEX>9</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/ssaod550.hdr" />
+            <TIE_POINT_GRID_INDEX>10</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/suaod550.hdr" />
+            <TIE_POINT_GRID_INDEX>11</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/aod469.hdr" />
+            <TIE_POINT_GRID_INDEX>12</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/aod670.hdr" />
+            <TIE_POINT_GRID_INDEX>13</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/aod865.hdr" />
+            <TIE_POINT_GRID_INDEX>14</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+        <Tie_Point_Grid_File>
+            <TIE_POINT_GRID_FILE_PATH href="subset_0_of_S2B_MSIL2A_20240520T_resampled__kmeans.data/tie_point_grids/aod1240.hdr" />
+            <TIE_POINT_GRID_INDEX>15</TIE_POINT_GRID_INDEX>
+        </Tie_Point_Grid_File>
+    </Data_Access>
+    <Tie_Point_Grids>
+        <NUM_TIE_POINT_GRIDS>16</NUM_TIE_POINT_GRIDS>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>0</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Total column water vapour at surface level provided by ECMWF</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>kg m**-2</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>tco3</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>1</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Total column ozone at surface level provided by ECMWF</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>kg m**-2</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>tcwv</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>2</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Mean sea level pressure at surface level provided by ECMWF</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>Pa</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>msl</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>3</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Relative humidity at surface level provided by ECMWF</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>%</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>r</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>4</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>10 metre U wind component at surface level provided by ECMWF</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>m s**-1</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>10u</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>5</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>10 metre V wind component at surface level provided by ECMWF</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>m s**-1</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>10v</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>6</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Total Aerosol Optical Depth at 550nm at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>~</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>aod550</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>7</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Geopotential at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>m**2 s**-2</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>z</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>8</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Black Carbon Aerosol Optical Depth at 550nm at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>~</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>bcaod550</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>9</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Organic Matter Aerosol Optical Depth at 550nm at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>~</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>omaod550</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>10</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Sea Salt Aerosol Optical Depth at 550nm at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>~</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>ssaod550</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>11</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Sulphate Aerosol Optical Depth at 550nm at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>~</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>suaod550</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>12</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Total Aerosol Optical Depth at 469nm at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>~</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>aod469</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>13</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Total Aerosol Optical Depth at 670nm at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>~</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>aod670</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>14</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Total Aerosol Optical Depth at 865nm at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>~</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>aod865</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+        <Tie_Point_Grid_Info>
+            <TIE_POINT_GRID_INDEX>15</TIE_POINT_GRID_INDEX>
+            <TIE_POINT_DESCRIPTION>Total Aerosol Optical Depth at 1240nm at surface level provided by CAMS</TIE_POINT_DESCRIPTION>
+            <PHYSICAL_UNIT>~</PHYSICAL_UNIT>
+            <TIE_POINT_GRID_NAME>aod1240</TIE_POINT_GRID_NAME>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <NCOLS>4</NCOLS>
+            <NROWS>3</NROWS>
+            <OFFSET_X>-1115.5</OFFSET_X>
+            <OFFSET_Y>-1057.5</OFFSET_Y>
+            <STEP_X>1220.0</STEP_X>
+            <STEP_Y>1220.0</STEP_Y>
+            <CYCLIC discontinuity="0">false</CYCLIC>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Tie_Point_Grid_Info>
+    </Tie_Point_Grids>
+    <Image_Display>
+        <Band_Statistics>
+            <BAND_INDEX>0</BAND_INDEX>
+            <STX_MIN>0.0</STX_MIN>
+            <STX_MAX>7.0</STX_MAX>
+            <STX_MEAN>2.189853805815986</STX_MEAN>
+            <STX_STD_DEV>1.9914772389157636</STX_STD_DEV>
+            <STX_RES_LEVEL>3</STX_RES_LEVEL>
+            <HISTOGRAM>7117,3983,4058,3575,2411,2119,1303,606</HISTOGRAM>
+            <NUM_COLORS>8</NUM_COLORS>
+            <Color_Palette_Point>
+                <SAMPLE>0.0</SAMPLE>
+                <LABEL>Mata de Galeria ou Ciliar</LABEL>
+                <COLOR red="0" green="102" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>1.0</SAMPLE>
+                <LABEL>Mata Consolidada</LABEL>
+                <COLOR red="0" green="51" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>2.0</SAMPLE>
+                <LABEL>Área Edificada/Urbanizada</LABEL>
+                <COLOR red="255" green="0" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>3.0</SAMPLE>
+                <LABEL>Pastagem</LABEL>
+                <COLOR red="0" green="255" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>4.0</SAMPLE>
+                <LABEL>Campo Rupestre</LABEL>
+                <COLOR red="153" green="255" blue="153" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>5.0</SAMPLE>
+                <LABEL>Rocha Exposta</LABEL>
+                <COLOR red="255" green="200" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>6.0</SAMPLE>
+                <LABEL>Solo Exposto</LABEL>
+                <COLOR red="102" green="102" blue="0" alpha="255" />
+            </Color_Palette_Point>
+            <Color_Palette_Point>
+                <SAMPLE>7.0</SAMPLE>
+                <LABEL>Corpos D'água</LABEL>
+                <COLOR red="0" green="0" blue="255" alpha="255" />
+            </Color_Palette_Point>
+            <NO_DATA_COLOR red="0" green="0" blue="0" alpha="0" />
+            <HISTOGRAM_MATCHING>None</HISTOGRAM_MATCHING>
+        </Band_Statistics>
+    </Image_Display>
+    <Image_Interpretation>
+        <Spectral_Band_Info>
+            <BAND_INDEX>0</BAND_INDEX>
+            <BAND_DESCRIPTION>Class_indices</BAND_DESCRIPTION>
+            <BAND_NAME>class_indices</BAND_NAME>
+            <BAND_RASTER_WIDTH>1734</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>924</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>uint8</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <INDEX_CODING_NAME>Cluster_classes</INDEX_CODING_NAME>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>true</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>255.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>10.0,0.0,0.0,-10.0,547740.0,7777260.0</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+    </Image_Interpretation>
+    <Dataset_Sources>
+        <MDElem name="metadata">
+            <MDElem name="Cluster_Analysis">
+                <MDElem name="class.0">
+                    <MDATTR name="cluster_center.B2" type="float64">0.017540558026431632</MDATTR>
+                    <MDATTR name="cluster_center.B3" type="float64">0.03200864344081091</MDATTR>
+                    <MDATTR name="cluster_center.B4" type="float64">0.023300460567789404</MDATTR>
+                    <MDATTR name="cluster_center.B5" type="float64">0.06270880223424873</MDATTR>
+                    <MDATTR name="cluster_center.B6" type="float64">0.17907509214696993</MDATTR>
+                    <MDATTR name="cluster_center.B8" type="float64">0.22882661360189643</MDATTR>
+                    <MDATTR name="cluster_center.B9" type="float64">0.24553136092437228</MDATTR>
+                    <MDATTR name="cluster_center.B11" type="float64">0.14014729349613975</MDATTR>
+                    <MDATTR name="cluster_center.B12" type="float64">0.06563979479344545</MDATTR>
+                </MDElem>
+                <MDElem name="class.1">
+                    <MDATTR name="cluster_center.B2" type="float64">0.01826580908322057</MDATTR>
+                    <MDATTR name="cluster_center.B3" type="float64">0.031173027842679203</MDATTR>
+                    <MDATTR name="cluster_center.B4" type="float64">0.028702789313134823</MDATTR>
+                    <MDATTR name="cluster_center.B5" type="float64">0.06256603457242625</MDATTR>
+                    <MDATTR name="cluster_center.B6" type="float64">0.14742065690709955</MDATTR>
+                    <MDATTR name="cluster_center.B8" type="float64">0.17441497232809192</MDATTR>
+                    <MDATTR name="cluster_center.B9" type="float64">0.20048149940619225</MDATTR>
+                    <MDATTR name="cluster_center.B11" type="float64">0.13723161156864408</MDATTR>
+                    <MDATTR name="cluster_center.B12" type="float64">0.0737961360231657</MDATTR>
+                </MDElem>
+                <MDElem name="class.2">
+                    <MDATTR name="cluster_center.B2" type="float64">0.03696203464064853</MDATTR>
+                    <MDATTR name="cluster_center.B3" type="float64">0.06223437481701801</MDATTR>
+                    <MDATTR name="cluster_center.B4" type="float64">0.07067862225917669</MDATTR>
+                    <MDATTR name="cluster_center.B5" type="float64">0.11852410363309082</MDATTR>
+                    <MDATTR name="cluster_center.B6" type="float64">0.20044463780335603</MDATTR>
+                    <MDATTR name="cluster_center.B8" type="float64">0.23845985876731826</MDATTR>
+                    <MDATTR name="cluster_center.B9" type="float64">0.25552918106122224</MDATTR>
+                    <MDATTR name="cluster_center.B11" type="float64">0.22743424794963363</MDATTR>
+                    <MDATTR name="cluster_center.B12" type="float64">0.13802064659429342</MDATTR>
+                </MDElem>
+                <MDElem name="class.3">
+                    <MDATTR name="cluster_center.B2" type="float64">0.023495571206101747</MDATTR>
+                    <MDATTR name="cluster_center.B3" type="float64">0.044882932112995565</MDATTR>
+                    <MDATTR name="cluster_center.B4" type="float64">0.03316868132345992</MDATTR>
+                    <MDATTR name="cluster_center.B5" type="float64">0.08369031590120195</MDATTR>
+                    <MDATTR name="cluster_center.B6" type="float64">0.22207973264545028</MDATTR>
+                    <MDATTR name="cluster_center.B8" type="float64">0.28786420728895784</MDATTR>
+                    <MDATTR name="cluster_center.B9" type="float64">0.2822301489459896</MDATTR>
+                    <MDATTR name="cluster_center.B11" type="float64">0.16697445211021758</MDATTR>
+                    <MDATTR name="cluster_center.B12" type="float64">0.08040426436171169</MDATTR>
+                </MDElem>
+                <MDElem name="class.4">
+                    <MDATTR name="cluster_center.B2" type="float64">0.038264067578053756</MDATTR>
+                    <MDATTR name="cluster_center.B3" type="float64">0.07253760805778235</MDATTR>
+                    <MDATTR name="cluster_center.B4" type="float64">0.062166603728896326</MDATTR>
+                    <MDATTR name="cluster_center.B5" type="float64">0.13109822699700877</MDATTR>
+                    <MDATTR name="cluster_center.B6" type="float64">0.2707386409389348</MDATTR>
+                    <MDATTR name="cluster_center.B8" type="float64">0.3324693536927125</MDATTR>
+                    <MDATTR name="cluster_center.B9" type="float64">0.3250166313601185</MDATTR>
+                    <MDATTR name="cluster_center.B11" type="float64">0.22674729937763444</MDATTR>
+                    <MDATTR name="cluster_center.B12" type="float64">0.12025738477125414</MDATTR>
+                </MDElem>
+                <MDElem name="class.5">
+                    <MDATTR name="cluster_center.B2" type="float64">0.03822772336113778</MDATTR>
+                    <MDATTR name="cluster_center.B3" type="float64">0.056657043732370314</MDATTR>
+                    <MDATTR name="cluster_center.B4" type="float64">0.09243372885338086</MDATTR>
+                    <MDATTR name="cluster_center.B5" type="float64">0.11367307257401382</MDATTR>
+                    <MDATTR name="cluster_center.B6" type="float64">0.13202920435854726</MDATTR>
+                    <MDATTR name="cluster_center.B8" type="float64">0.12302464241658981</MDATTR>
+                    <MDATTR name="cluster_center.B9" type="float64">0.12681128406953832</MDATTR>
+                    <MDATTR name="cluster_center.B11" type="float64">0.20096730204417362</MDATTR>
+                    <MDATTR name="cluster_center.B12" type="float64">0.18553247988135163</MDATTR>
+                </MDElem>
+                <MDElem name="class.6">
+                    <MDATTR name="cluster_center.B2" type="float64">0.06619697575483761</MDATTR>
+                    <MDATTR name="cluster_center.B3" type="float64">0.09898505308580313</MDATTR>
+                    <MDATTR name="cluster_center.B4" type="float64">0.14277585235930418</MDATTR>
+                    <MDATTR name="cluster_center.B5" type="float64">0.1781392152321496</MDATTR>
+                    <MDATTR name="cluster_center.B6" type="float64">0.2214592732547525</MDATTR>
+                    <MDATTR name="cluster_center.B8" type="float64">0.24302275071004703</MDATTR>
+                    <MDATTR name="cluster_center.B9" type="float64">0.243660618988984</MDATTR>
+                    <MDATTR name="cluster_center.B11" type="float64">0.31434379609201396</MDATTR>
+                    <MDATTR name="cluster_center.B12" type="float64">0.23977907285737415</MDATTR>
+                </MDElem>
+                <MDElem name="class.7">
+                    <MDATTR name="cluster_center.B2" type="float64">0.01915182675159235</MDATTR>
+                    <MDATTR name="cluster_center.B3" type="float64">0.029561640764330457</MDATTR>
+                    <MDATTR name="cluster_center.B4" type="float64">0.023293885350318646</MDATTR>
+                    <MDATTR name="cluster_center.B5" type="float64">0.023103151592356215</MDATTR>
+                    <MDATTR name="cluster_center.B6" type="float64">0.015325788535031562</MDATTR>
+                    <MDATTR name="cluster_center.B8" type="float64">0.013379121019108082</MDATTR>
+                    <MDATTR name="cluster_center.B9" type="float64">0.03657595414012751</MDATTR>
+                    <MDATTR name="cluster_center.B11" type="float64">0.01689442292993641</MDATTR>
+                    <MDATTR name="cluster_center.B12" type="float64">0.012151964331210009</MDATTR>
+                </MDElem>
+            </MDElem>
+            <MDElem name="Processing_Graph">
+                <MDElem name="node.0">
+                    <MDATTR name="id" type="ascii" mode="rw">KMeansClusterAnalysis$19253AE9E93</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">KMeansClusterAnalysis</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Cluster Analysis</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">10.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Performs a K-Means cluster analysis.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Ralf Quast, Marco Zuehlke</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2008 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-10-03T18:40:05.784Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="source" type="ascii" mode="rw">file:/C:/Users/xr4go/Pictures/Pins%20Sentinel.jp2</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="randomSeed" type="ascii">31415</MDATTR>
+                        <MDATTR name="iterationCount" type="ascii">30</MDATTR>
+                        <MDATTR name="clusterCount" type="ascii">8</MDATTR>
+                        <MDATTR name="sourceBandNames" type="ascii">B2,B3,B4,B5,B6,B8,B9,B11,B12</MDATTR>
+                    </MDElem>
+                </MDElem>
+            </MDElem>
+        </MDElem>
+    </Dataset_Sources>
+</Dimap_Document>
